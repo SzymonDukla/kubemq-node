@@ -1,6 +1,6 @@
 {
-  "name": "kubemq-nodejs",
-  "version": "1.0.5",
+  "name": "@szymon.dukla/kubemq-node",
+  "version": "2.0.0",
   "description": "The KubeMQ SDK for Nodejs enables Nodejs developers to communicate with KubeMQ server.",
   "main": "kubemq.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kubemq-io/kubemq-node.git"
+    "url": "git+https://github.com/SzymonDukla/kubemq-node.git"
   },
   "keywords": [
     "Messaging"
   ],
-  "author": "Ido Sheffer",
+  "author": "Szymon Dukla",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kubemq-io/kubemq-node/issues"
+    "url": "https://github.com/SzymonDukla/kubemq-node/issues"
   },
-  "homepage": "https://github.com/kubemq-io/kubemq-node#readme",
+  "homepage": "https://github.com/SzymonDukla/kubemq-node#readme",
   "dependencies": {
     "@grpc/proto-loader": "^0.5.3",
     "async-lock": "^1.2.2",

@@ -21,8 +21,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
 
 //Represents the instance that is responsible to send events to the kubemq.
-const Initiator=require('../lowLevel/initiator')
-const Request= require('../lowLevel/queryRequest')
+const Initiator=require('../lowlevel/initiator')
+const Request= require('../lowlevel/queryRequest')
 const ChannelParameters = require('./channelParameters')
 
 

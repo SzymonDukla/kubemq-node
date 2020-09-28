@@ -9,8 +9,8 @@ exports.EventStoreType = require('./pubSub/eventsStore/storeSubscriber').EventSt
 //PubSub
 exports.Subscriber      = require('./pubSub/events/subscriber');
 exports.Publisher       = require('./pubSub/events/publisher');
-exports.LowLevelEvent   =   require('./pubSub/lowLevel/event');
-exports.Sender          =   require('./pubSub/lowLevel/sender');
+exports.LowLevelEvent   =   require('./pubSub/lowlevel/event');
+exports.Sender          =   require('./pubSub/lowlevel/sender');
 //Queue
 exports.Queue = require('./queue/message_queue');
 exports.MessageQueue = require('./queue/message_queue');

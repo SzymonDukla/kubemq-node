@@ -21,9 +21,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
 
 
-const Sender=require('./lowLevel/sender')
-const Subscriber = require('./lowLevel/subscriber')
-const Event = require('./lowLevel/event')
+const Sender=require('./lowlevel/sender')
+const Subscriber = require('./lowlevel/subscriber')
+const Event = require('./lowlevel/event')
 
 let subscriber;
 let sender;

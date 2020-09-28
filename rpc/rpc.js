@@ -20,10 +20,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. */
 
-const Sender = require('./lowLevel/initiator')
-const Responder = require('./lowLevel/responder')
-const Request = require('./lowLevel/queryRequest')
-const QueryResponse = require('./lowLevel/queryResponse');
+const Sender = require('./lowlevel/initiator')
+const Responder = require('./lowlevel/responder')
+const Request = require('./lowlevel/queryRequest')
+const QueryResponse = require('./lowlevel/queryResponse');
 
 class rpc {
 

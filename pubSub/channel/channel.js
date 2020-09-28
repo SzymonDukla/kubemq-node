@@ -22,7 +22,7 @@ SOFTWARE. */
 
 //Represents the instance that is responsible to send events to the kubemq.
 
-const Sender = require('../lowLevel/sender')
+const Sender = require('../lowlevel/sender')
 const ChannelParameters = require('./channelParameters')
 class Channel {
     constructor(params) {
